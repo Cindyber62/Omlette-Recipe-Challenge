@@ -1,0 +1,66 @@
+/* outfit-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/outfit-v14-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* outfit-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/outfit-v14-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;}
+  body{
+    background-color:hsl(212, 45%, 89%);
+   
+    display: flex;
+    
+  justify-content: center;
+  }
+  .wrapper{
+  background-color: white;
+align-items: center;
+width: 260px;
+margin-top:6rem;
+margin-bottom: 3rem;
+ border-radius: 12px;
+
+    
+  }
+
+  .small_wrapper{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin:1rem;
+  }
+.image-background{
+    color:hsl(218, 44%, 22%) ;
+  
+  border-radius: 12px;
+}
+
+.text-one{
+ padding-top: 5px;
+ text-align: center;
+ 
+    font-family:Outfit;
+    font-weight: 700;
+   
+}
+.text-two{
+  text-align: center;
+    font-family:Outfit;
+  color:hsl(216, 15%, 48%);
+    font-weight: 100; 
+    font-size: 13px;
+     
+}
